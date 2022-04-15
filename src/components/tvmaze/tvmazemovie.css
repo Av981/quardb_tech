@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 85vh;
+  width: 75vw;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.image_name > img {
+  padding: 1vh 1vh 1vh 0;
+  height: 40vh;
+  width: 50%;
+}
+.image_name > h1 {
+  color: brown;
+  text-align: center;
+  padding-top: 1rem;
+  text-decoration: underline;
+}
+.image_name > h4 {
+  color: rgb(61, 54, 54);
+}
+.image_name>h4>span{
+    color:rgb(252, 103, 77);
+    text-decoration: 2px underline ;
+}

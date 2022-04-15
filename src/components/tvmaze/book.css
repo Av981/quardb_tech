@@ -1,0 +1,49 @@
+.book_container{
+    height: 400px;
+    width: 800px;
+    position: relative;
+    top: 5vh;
+    left: 25%;
+    display: flex;
+    border-radius: 10px;
+    background-color: bisque;
+    box-shadow: 5px 5px 10px 10px rgba(100, 163, 126, 0.541) ;
+
+    
+}
+.book-image{
+    height: 400px;
+    width: 250px;
+    display: flex;
+
+}
+.book-image >img {
+    height:350px;
+    width:200px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.customer_details{
+    height: 400px;
+    width: 250px;
+    padding: 40px 0;
+    text-align: left;
+}
+.customer_details h2{
+    color: rgba(29, 19, 161, 0.884);
+    text-decoration:  underline;
+}
+.customer_details >input{
+    width: 95%;
+}
+.customer_details >button{
+    width: 95%;
+    margin-top: 100px;
+}
+.total_cost{
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    padding-top: 160px;
+}
